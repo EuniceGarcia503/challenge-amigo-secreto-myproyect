@@ -24,6 +24,14 @@ let listaAmigos = [];
  return;
 }
 
+//TAREA 3********** CREAR FUNCIÓN ACTUALIZAR LISTA DE AMIGOS************//
+
+function actualizarListaHtml() {
+    return;
+}
+
+
+
 //OTROS.*************************FUNCIONES REUTILIZABLES***********************//
 
 
