@@ -87,3 +87,8 @@ function botonOn(elemento) {
     botonOn.onclick= null; // Elimina el elemento onclic//
 
  }
+
+ ///****Función: Desactivar botón.****///
+function botonOff(elemento) {
+    let botonOff = document.getElementById(elemento).setAttribute("disabled", "disabled");
+}
