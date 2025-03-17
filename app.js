@@ -12,11 +12,22 @@ let listaAmigos = [];
   ///Validar elemento de entrada//
   if (valorNombre == "" || !/^[A-Za-záéíóúÁÉÍÓÚñÑ\s]+$/.test(valorNombre)) {
     alert("Nombre inválido. Evita números y caracteres especiales.")
-
+    ///Limpia campo de entrada///
+    limpiarElementHtml("nombreAmigos");
  }else{
    ///Actualiza lista de Amigos///
    listaAmigos.push(valorNombre);
    console.log(listaAmigos); 
+   ///Limpia campo de entrada///
+   limpiarElementHtml("nombreAmigos");
  }
  return;
+}
+
+//OTROS.*************************FUNCIONES REUTILIZABLES***********************//
+
+
+//****Función : Limpiar casilla imput.****//
+function limpiarElementHtml(elemento) {
+    document.getElementById(elemento).value=""; 
 }
