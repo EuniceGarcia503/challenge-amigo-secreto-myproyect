@@ -80,3 +80,10 @@ function sortearAmigo(){
 function limpiarElementHtml(elemento) {
     document.getElementById(elemento).value=""; 
 }
+
+///****Función:Activar botón.****///
+function botonOn(elemento) {
+    document.getElementById(elemento).removeAttribute("disabled");//Remueve el atribito//
+    botonOn.onclick= null; // Elimina el elemento onclic//
+
+ }
