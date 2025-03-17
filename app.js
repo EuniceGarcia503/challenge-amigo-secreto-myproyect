@@ -31,6 +31,15 @@ function actualizarListaHtml() {
     let elementoUl = document.getElementById("listaParticipantes");
     ///Limpiar lista existente///
     elementoUl.innerHTML = "";
+    ///Iterar con el array///
+    let elementoLi;
+    /*Si el "i" es menor al total de elementos del array, creamos un <li> y le asignamos el elemento de la poción "0"//
+    en el siguiente ingreso asignará la posición "i+1"*/
+    for (let i = 0; i < listaAmigos.length; i++){
+        ///Creando elementos lista HTML//
+    elementoLi = document.createElement("li");
+    elementoLi.textContent = listaAmigos[i];
+    }
     return;
 }
 
