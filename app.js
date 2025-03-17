@@ -14,7 +14,9 @@ let listaAmigos = [];
     alert("Nombre inválido. Evita números y caracteres especiales.")
 
  }else{
-
+   ///Actualiza lista de Amigos///
+   listaAmigos.push(valorNombre);
+   console.log(listaAmigos); 
  }
  return;
 }
