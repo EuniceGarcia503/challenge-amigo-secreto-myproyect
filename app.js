@@ -47,8 +47,13 @@ function actualizarListaHtml() {
     return;
 }
 
-
-
+//TAREA 4*********** CREAR FUNCIÓN SORTEAR AMIGO **************//
+function sortearAmigo(){
+    ///Elegimos todos los elementos <li>///
+    let listaUl = document.getElementById("listaParticipantes");
+    
+        return;
+    }
 //OTROS.*************************FUNCIONES REUTILIZABLES***********************//
 
 
