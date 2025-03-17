@@ -51,7 +51,12 @@ function actualizarListaHtml() {
 function sortearAmigo(){
     ///Elegimos todos los elementos <li>///
     let listaUl = document.getElementById("listaParticipantes");
-    
+    ///Validar que hay nombres disponibles///
+    if(listaAmigos.length >= 2){
+        
+    } else{
+        alert("Debes ingresar al menos 2 participantes.");
+    }
         return;
     }
 //OTROS.*************************FUNCIONES REUTILIZABLES***********************//
