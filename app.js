@@ -27,6 +27,8 @@ let listaAmigos = [];
 //TAREA 3********** CREAR FUNCIÓN ACTUALIZAR LISTA DE AMIGOS************//
 
 function actualizarListaHtml() {
+    ///Obtener elemento lista ul///
+    let elementoUl = document.getElementById("listaParticipantes");
     return;
 }
 
