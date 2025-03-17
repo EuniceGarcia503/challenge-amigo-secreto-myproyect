@@ -9,8 +9,12 @@ let listaAmigos = [];
   let casilla = document.getElementById("nombreAmigos");
   let valorNombre = casilla.value;
   console.log(valorNombre);
+  ///Validar elemento de entrada//
+  if (valorNombre == "" || !/^[A-Za-záéíóúÁÉÍÓÚñÑ\s]+$/.test(valorNombre)) {
+    alert("Nombre inválido. Evita números y caracteres especiales.")
 
-  
-    return;
+ }else{
 
  }
+ return;
+}
