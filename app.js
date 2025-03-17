@@ -18,6 +18,8 @@ let listaAmigos = [];
    ///Actualiza lista de Amigos///
    listaAmigos.push(valorNombre);
    console.log(listaAmigos); 
+   ///Agregamos elemento a la lista ul cada vez que ingresamos un nombre válido///
+   actualizarListaHtml();
    ///Limpia campo de entrada///
    limpiarElementHtml("nombreAmigos");
  }
@@ -39,6 +41,8 @@ function actualizarListaHtml() {
         ///Creando elementos lista HTML//
     elementoLi = document.createElement("li");
     elementoLi.textContent = listaAmigos[i];
+    //Agregamos el elemento  <li> a la lista con el origen del input///
+    document.getElementById("listaParticipantes").appendChild(elementoLi);
     }
     return;
 }
