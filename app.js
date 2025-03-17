@@ -53,7 +53,8 @@ function sortearAmigo(){
     let listaUl = document.getElementById("listaParticipantes");
     ///Validar que hay nombres disponibles///
     if(listaAmigos.length >= 2){
-        
+       ///Genera indice aleatorio//
+       let amigoSecreto = Math.floor(Math.random() *listaAmigos.length); 
     } else{
         alert("Debes ingresar al menos 2 participantes.");
     }
