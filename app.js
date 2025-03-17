@@ -29,6 +29,8 @@ let listaAmigos = [];
 function actualizarListaHtml() {
     ///Obtener elemento lista ul///
     let elementoUl = document.getElementById("listaParticipantes");
+    ///Limpiar lista existente///
+    elementoUl.innerHTML = "";
     return;
 }
 
