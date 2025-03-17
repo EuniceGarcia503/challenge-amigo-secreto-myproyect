@@ -68,6 +68,8 @@ function sortearAmigo(){
        ///Agregar Mensaje Final//
        let mensajeFinal = document.querySelector("h2");
        mensajeFinal.textContent = "¡ **** FELICIDADES ****!";
+       ///Desactivar botón añadir ///
+       botonOff("addAmigo");
     } else{
         alert("Debes ingresar al menos 2 participantes.");
     }
