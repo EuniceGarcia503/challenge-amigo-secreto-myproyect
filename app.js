@@ -57,6 +57,17 @@ function sortearAmigo(){
        let amigoSecreto = Math.floor(Math.random() *listaAmigos.length); 
        ///Obtiene el nombre del amigo secreto///
        let nombreAmigoSecreto = listaAmigos[amigoSecreto];
+       ///Mostrar resultado///
+       let resultadoUl = document.getElementById("resultado");
+       resultadoUl.innerHTML = "";///Limpia el resultado///
+       let resultadoLi = document.createElement("li");
+       resultadoLi.textContent = "Tu amigo secreto es : " + nombreAmigoSecreto;
+       resultadoUl.appendChild(resultadoLi);
+       ///Vaciar UL///
+       listaUl.innerHTML="";
+       ///Agregar Mensaje Final//
+       let mensajeFinal = document.querySelector("h2");
+       mensajeFinal.textContent = "¡ **** FELICIDADES ****!";
     } else{
         alert("Debes ingresar al menos 2 participantes.");
     }
