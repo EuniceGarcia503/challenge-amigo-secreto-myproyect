@@ -70,6 +70,8 @@ function sortearAmigo(){
        mensajeFinal.textContent = "¡ **** FELICIDADES ****!";
        ///Desactivar botón añadir ///
        botonOff("addAmigo");
+       ///Desactivar botón sortear amigo///
+       botonOff("sortearAmigo");
     } else{
         alert("Debes ingresar al menos 2 participantes.");
     }
