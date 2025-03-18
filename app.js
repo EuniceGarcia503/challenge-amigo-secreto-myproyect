@@ -93,7 +93,8 @@ function reiniciarJuego() {
     listaAmigos = [];//Limpia la lista de amigos//
     botonOn("addAmigo");
     botonOn("sortearAmigo");
-
+    ///Desactivar botón nuevo juego///
+    botonOff("reiniciarJuego");
     return;
 }    
 
