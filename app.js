@@ -77,6 +77,24 @@ function sortearAmigo(){
     }
         return;
     }
+
+//TAREA 5 ******************* CREANDO FUNCIÓN REINICIO DE JUEGO*******************//
+
+function reiniciarJuego() {
+    ///.Restablece el título original de la sección.///
+    let resetH2 = document.querySelector("h2");
+    resetH2.innerText = "Digite el nombre de los participantes:";
+    ///Restablece el estado original de la etiqueta div//Limpia el resultado del sorteo./// 
+    let resultadoUl = document.getElementById("resultado");
+    resultadoUl.innerHTML = "";
+    ///Eliminar la lista HTML///
+    listaAmigos = [];//Limpia la lista de amigos//
+    botonOn("addAmigo");
+    botonOn("sortearAmigo");
+
+    return;
+}    
+
 //OTROS.*************************FUNCIONES REUTILIZABLES***********************//
 
 
