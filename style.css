@@ -194,3 +194,10 @@ ul {
 .button-reset img{
     margin-right: 40px;
 }
+
+.footer{
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    color: var(--color-white);
+    padding: 10px;
+}
