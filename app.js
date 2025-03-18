@@ -2,6 +2,9 @@
 
 let listaAmigos = [];
 
+///Modifica el título del encabezado///
+tituloHead("h1","Amigo Secreto online");
+
 //TAREA 2********** CREAR FUNCIÓN AGREGAR AMIGOS************//
 
  function agregarAmigo() {
