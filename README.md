@@ -20,7 +20,7 @@ Su objetivo es realizar una simulación del sorteo aleatorio de los nombres de l
 
 
 ## ✨ Funcionalidades.
-✅ **Agregar nombres de los participantes**: Los usuarios pueden escribir nombres en un campo de texto y agregarlos a una lista visible con un "Añadir".  
+✅ **Agregar nombres de los participantes**: Los usuarios pueden escribir nombres en un campo de texto y agregarlos a una lista visible con el botón "Añadir".  
 
 ![Boton Añadir](https://github.com/user-attachments/assets/1f97c222-7142-43dc-9589-37af9c57ec10)
 
@@ -28,15 +28,15 @@ Su objetivo es realizar una simulación del sorteo aleatorio de los nombres de l
 
 ![Mensaje de validacion-Entrada](https://github.com/user-attachments/assets/fc60d078-1c5d-49c1-917f-0d58d82c13f1)
 
-✅ **Visualización de la lista de participantes**: Los nombres ingresados se muestran en una lista en el orden de ingreso. 
+✅ **Visualización de la lista de participantes**: Los nombres de los participantes ingresados se muestran en una lista en el orden de ingreso. 
 
 ![listaParticipantesREADME](https://github.com/user-attachments/assets/258bf198-721a-4cac-a496-7e28ecb2acfa)
 
-✅ **Sorteo aleatorio**: Un botón "Sortear Amigo" permite seleccionar un nombre al azar y mostrarlo en pantalla con un mensaje de felicitación.  
+✅ **Sorteo aleatorio**: El botón "Sortear Amigo" permite seleccionar un nombre al azar y mostrarlo al usuario en la pantalla con un mensaje de felicitación.  
 
 ![Resultado Sorteo](https://github.com/user-attachments/assets/ccd82b61-4d86-4b75-a6b5-56ccf1b61e00)
 
-✅ **Nuevo Juego**: Un botón "Nuevo Juego" permite reiniciar el proceso y realizar un nuevo sorteo con una lista diferente.  
+✅ **Nuevo Juego**: El botón "Nuevo Juego" permite reiniciar el proceso y realizar un nuevo sorteo con una lista diferente.  
 
 ![nuevoJuegoREADME](https://github.com/user-attachments/assets/33bcde44-eb5b-464a-8529-7ea2d1576a7a)
 
