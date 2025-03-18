@@ -40,14 +40,7 @@ body {
 }
 
 
-/* Párrafo*/
-.header_parrafo{
-    font-size: 24px;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
-    color: var(--color-white);
-}
+
 
 /* Sección de entrada */
 .input-section {
@@ -70,6 +63,16 @@ body {
     font-style: italic;
     color: var(--color-white);
 }
+
+/* Párrafo*/
+.header_parrafo{
+    font-size: 24px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+}
+
 
 .section-title {
     font-family: "Inter", serif;
