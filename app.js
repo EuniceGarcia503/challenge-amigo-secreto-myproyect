@@ -117,3 +117,9 @@ function botonOn(elemento) {
 function botonOff(elemento) {
     let botonOff = document.getElementById(elemento).setAttribute("disabled", "disabled");
 }
+
+///****Función: Título de encabezado.****///
+function tituloHead(elemento,texto) {
+    let tituloHead = document.querySelector(elemento)
+    tituloHead.innerText = texto;
+}
