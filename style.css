@@ -39,6 +39,16 @@ body {
     padding: 40px 0 0;
 }
 
+
+/* Párrafo*/
+.header_parrafo{
+    font-size: 24px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+}
+
 /* Sección de entrada */
 .input-section {
     flex: 60%;
