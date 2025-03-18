@@ -41,7 +41,7 @@ Su objetivo es realizar una simulación del sorteo aleatorio de los nombres de l
 ![nuevoJuegoREADME](https://github.com/user-attachments/assets/33bcde44-eb5b-464a-8529-7ea2d1576a7a)
 
 ## 🌐 Link de acceso al proyecto.  
-[🔗 Acceder al proyecto](URL_DEL_PROYECTO)  
+[🔗 Acceder al proyecto](https://eunicegarcia503.github.io/challenge-amigo-secreto-myproyect/) 
 
 ## 🛠️ Tecnologías utilizadas.  
 
