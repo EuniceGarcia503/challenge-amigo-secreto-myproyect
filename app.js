@@ -68,6 +68,8 @@ function sortearAmigo(){
        ///Agregar Mensaje Final//
        let mensajeFinal = document.querySelector("h2");
        mensajeFinal.textContent = "¡ **** FELICIDADES ****!";
+       ///Activa botón nuevo juego//
+       botonOn("reiniciarJuego");
        ///Desactivar botón añadir ///
        botonOff("addAmigo");
        ///Desactivar botón sortear amigo///
